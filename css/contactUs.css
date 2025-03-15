@@ -1,0 +1,43 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../asset/banner-home.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  height: 40vh;
+}
+
+.fix-size {
+  width: 100%; /* Gambar menyesuaikan lebar card */
+  height: 200px; /* Tinggi seragam untuk semua gambar */
+  object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+  object-position: center; /* Memusatkan bagian utama gambar */
+  border-top-left-radius: 10px; /* Menyesuaikan sudut card */
+  border-top-right-radius: 10px;
+}
+
+.social-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 180px;
+padding: 10px;
+font-size: 18px;
+font-weight: bold;
+color: white;
+border-radius: 30px;
+transition: all 0.3s ease-in-out;
+    }
+.social-btn i {
+font-size: 24px;
+margin-right: 10px;
+}
+.social-btn:hover {
+transform: scale(1.1);
+}
+.wa { background: #25D366; }
+.wa:hover { background: #1EBE5D; }
+.ig { background: #E4405F; }
+.ig:hover { background: #D83450; }
+.fb { background: #1877F2; }
+.fb:hover { background: #0E65C2; }

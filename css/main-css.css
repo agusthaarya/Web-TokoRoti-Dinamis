@@ -1,0 +1,114 @@
+* {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Uchen", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.body-font{
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+  font-family: 'Dancing Script', cursive;
+  background-color: #83481e;
+  transition: top 0.3s;
+}
+
+.fixSize-Foto {
+    width: 100%; /* Gambar menyesuaikan lebar card */
+    height: 280px; /* Tinggi seragam untuk semua gambar */
+    object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+    object-position: center; /* Memusatkan bagian utama gambar */
+    image-resolution: 300dpi;
+    border-top-left-radius: 10px; /* Menyesuaikan sudut card */
+    border-top-right-radius: 10px;
+}
+
+/* style */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.zoom-transition:hover{
+  transition: ease-in-out transform 0.3s;
+  transform: scale(1.1);
+}
+
+.borderBottom{
+  border-bottom: 1px solid black;
+}
+
+.borderBottom-animation{
+  transition: 0.3s;
+}
+
+.borderBottom-animation:hover{
+  border-bottom: 1px solid black;
+}
+
+.textWarning-animation{
+  transition: ease-in-out 0.3s;
+}
+
+.textWarning-animation:hover {
+  color:#ffc107!important;
+}
+
+.bgWarning-animation{
+ transition: ease-in-out 0.3s;
+}
+
+.bgWarning-animation:hover{
+  background-color:  #ffc107!important;
+}
+
+.textDanger-animation{
+  transition: ease-in-out 0.3s;
+}
+
+.textDanger-animation:hover {
+  color: rgb(255, 28, 28)!important;
+}
+
+.textSuccess-animation{
+  transition: ease-in-out 0.3s;
+}
+
+.textSuccess-animation:hover {
+  color: rgb(17, 209, 0)!important
+}
+
+.textDanger-emphasis-animation{
+  transition: ease-in-out 0.3s;
+}
+
+.textDanger-emphasis-animation:hover {
+  color: rgb(255, 73, 73)!important;
+}
+
+.textPrimary-animation{
+  transition: ease-in-out 0.3s;
+}
+
+.textPrimary-animation:hover {
+  color: rgb(49, 80, 255)!important;
+}
+
+.bgPrimary-animation{
+ transition: ease-in-out 0.3s;
+}
+
+.bgPrimary-animation:hover{
+  background-color: rgb(97, 121, 255)!important;
+}
+/* style */

@@ -1,0 +1,26 @@
+body {
+  overflow: scroll;
+  background-color: #ffffff;
+  font-family: "Uchen", serif;
+  font-style: normal;
+}
+
+.body-font{
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+  font-family: 'Dancing Script', cursive;
+  background-color: #83481e;
+  transition: top 0.3s;
+}
+.nav-border-bottom:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px rgb(255, 255, 255);
+  transform: scaleX(0);
+  transition: transform 350ms ease-in-out;
+}
+.nav-border-bottom:hover::after {
+  transform: scaleX(1);
+}

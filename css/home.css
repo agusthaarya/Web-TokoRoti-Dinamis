@@ -1,0 +1,104 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../asset/banner-home.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 80vh;
+}
+
+.banner-content {
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-item {
+  position: relative;
+  transition: 0.2s ease-in-out left;
+}
+
+.rating-section {
+  box-shadow: 5px 5px 0px 0px rgb(240, 240, 240);
+  background-color: #fdf4eb;
+}
+
+.rating-section-number {
+  text-align: center;
+  font: 800 40px system-ui;
+  position: relative;
+}
+
+@keyframes count-up {
+  from {
+    transform: scale(1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+/* Menambahkan animasi saat nilai berubah */
+.rating-section-number {
+  animation: count-up 2s ease-in-out forwards;
+}
+
+.social-media {
+  text-decoration: none;
+  background-color: #eaa637;
+}
+
+.fix-size {
+    width: 100%; /* Gambar menyesuaikan lebar card */
+    height: 200px; /* Tinggi seragam untuk semua gambar */
+    object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+    object-position: center; /* Memusatkan bagian utama gambar */
+    image-resolution: 300dpi;
+    border-top-left-radius: 10px; /* Menyesuaikan sudut card */
+    border-top-right-radius: 10px;
+}
+
+.testimonial-card {
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.quote-icon {
+  font-size: 4rem;
+  color: #6366f1;
+  opacity: 0.2;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carousel-controls button {
+  background: none;
+  border: none;
+  font-size: 35px;
+  color: #ffc107;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.carousel-controls button:hover {
+  color: #000000;
+}
+
+

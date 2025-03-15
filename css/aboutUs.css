@@ -1,0 +1,17 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../asset/banner-home.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  height: 40vh;
+}
+
+.fix-size {
+  width: 100%; /* Gambar menyesuaikan lebar card */
+  height: 200px; /* Tinggi seragam untuk semua gambar */
+  object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+  object-position: center; /* Memusatkan bagian utama gambar */
+  border-top-left-radius: 10px; /* Menyesuaikan sudut card */
+  border-top-right-radius: 10px;
+}
