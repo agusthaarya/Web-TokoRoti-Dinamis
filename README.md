@@ -3,7 +3,7 @@
 Website Toko Roti Dinamis adalah platform berbasis web yang memungkinkan pengelolaan produk dan pemesanan secara efisien. Website ini memiliki dua peran utama, yaitu **admin** dan **pengunjung**.
 
 ![Design preview for the Recipe page coding challenge](./adminPanel.png)
-![Design preview for the Recipe page coding challenge](./halamUtamaFix.png)
+![Design preview for the Recipe page coding challenge](./halamanUtamaFix.png)
 
 ## Fitur untuk Admin
 
